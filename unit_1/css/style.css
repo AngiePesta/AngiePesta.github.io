@@ -1,5 +1,7 @@
 body {
 	background-color: aquamarine;
+	background-image:"images/rockmill.jpg";
+	background-size: cover;
 }
 
 h1, p{

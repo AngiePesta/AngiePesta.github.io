@@ -1,0 +1,37 @@
+body {
+	text-align: center;
+	background-color: black;
+	background-image: url(../images/sign.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	text-shadow: 2px 2px #333333;
+	font-family: Tahoma;
+	font-weight: 100;
+	line-height:200%;
+	font-size: 16px;
+
+}
+
+h1 { 
+	font-family:Georgia;
+	font-size: 3em;
+	color: #ffffff;
+	text-shadow: 2px 2px #333333; 
+
+}
+
+ul, p {
+	text-align: left;
+	list-style-type: none;
+}
+
+a { 
+	text-shadow: 2px 2px #333333;
+	color: #ffffff; 
+}
+
+#slogan {
+	font-style:italic;
+	font-size: 1.3em;
+}
