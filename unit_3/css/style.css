@@ -1,37 +1,149 @@
 body {
-	text-align: center;
-	background-color: black;
-	background-image: url(../images/sign.jpg);
+	color: #666666;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	height: 100vh;
+	margin: 0;
+}
+
+.header {
+	background: rgba(0,0,0,0.6);
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+.header__wrapper {
+	margin: 0 0.5em;
+}
+
+.header__title {
+	color: #FFFFFF;
+	float: left;
+	font-size: 2em;
+	margin: 0;
+	text-transform: lowercase;
+	font-weight: 300;
+}
+
+.header__nav {
+	float: right;
+}
+
+.header__nav__items {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.header__nav__item {
+	display: inline-block;
+}
+
+.header__nav__item a {
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding: 0.875em 1em;
+}
+
+.header__nav__item a:hover {
+	background-color: #666666; 
+}
+
+.main__wrapper {
+	margin: 0 auto;
+	max-width: 992px;
+	line-height: 32px
+	padding: 0.875em 1em;
+}
+
+.hero {
+	background-image: url(../images/office.jpg);
+	background-repeat: no-repeat;
 	background-size: cover;
+	height: 20em;
+}
+
+.footer__wrapper {
+	margin: 0 auto;
+	max-width: 992px
+}
+
+/*
+body {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	background-color: black;
+	background-image: url(../images/office.jpg);
+	background-attachment: fixed;
+	background-position: center top;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	color: #ffffff;
-	text-shadow: 2px 2px #333333;
-	font-family: Tahoma;
+	text-shadow: 1.5px 1.5px #333333;
 	font-weight: 100;
 	line-height:200%;
 	font-size: 16px;
 
 }
 
-h1 { 
-	font-family:Georgia;
+#header { 
+	font-family: palatino, georgia, times, serif;
 	font-size: 3em;
 	color: #ffffff;
-	text-shadow: 2px 2px #333333; 
+	margin-top: 25%;
+	text-shadow: 1.5px 1.5px #333333; 
+	text-align: center;
+	vertical-align: middle;
+	height: 689px;
 
 }
 
-ul, p {
-	text-align: left;
+ul {
+	font-family: Open Sans, arial, sans serif;
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	background-color: #333; opacity: 0.5;
 }
 
-a { 
-	text-shadow: 2px 2px #333333;
+li {
+	display: inline;
+	padding: 0px;
+	float: right;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+a {
+	text-shadow: 1.5px 1.5px #333333;
 	color: #ffffff; 
 }
 
+p {
+	text-align: left
+	font-family: open sans, arial, sans serif;
+}
+
 #slogan {
+	font-family: open sans, arial, sans serif;
 	font-style:italic;
 	font-size: 1.3em;
 }
+*/
