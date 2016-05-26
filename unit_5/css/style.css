@@ -1,0 +1,56 @@
+
+body {
+	color: #666666;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	height: 100vh;
+	margin: 0;
+}
+
+.header {
+	background: rgba(0,0,0,0.6);
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+.header__title {
+	background-color: #FFED74;
+	border: 1px black solid;
+	color: #FFFFFF;
+	font-size: 2em;
+	margin: 0;
+	text-transform: lowercase;
+	font-weight: 300;
+}
+
+.header__nav__items {
+	list-style-type: none;
+	background-color: #E8C66A;
+	border: 1px black solid;
+	margin: 0;
+	padding: 20px;
+}
+
+.main__wrapper {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	max-width: 992px;
+	line-height: 32px
+	padding: 20px;
+}
+
+.hero {
+	background-image: url(../images/office.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 20em;
+}
+
+.footer__wrapper {
+	background-color: #FF957E;
+	border: 1px black solid;
+	margin: 0;
+	padding: 20px;
+}

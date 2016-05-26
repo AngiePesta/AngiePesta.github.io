@@ -70,3 +70,8 @@ body {
 	margin: 0 auto;
 	max-width: 992px
 }
+
+span {
+	font-style: italic;
+	font-variant: large-caps;
+}
