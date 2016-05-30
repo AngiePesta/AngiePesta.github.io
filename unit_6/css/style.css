@@ -1,0 +1,98 @@
+body {
+	color: #666666;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	height: 100vh;
+}
+
+.header {
+	background: rgba(0,0,0,0.6);
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+.header__wrapper {
+	margin: 0 0.5em;
+}
+
+.header__title {
+	color: #FFFFFF;
+	float: left;
+	font-family: 'Cutive Mono', sans-serif;
+	font-size: 2em;
+	margin: 0;
+	padding: 0.2em;
+	text-transform: lowercase;
+	font-weight: 300;
+}
+
+.header__nav {
+	float: right;
+}
+
+.header__nav__items {
+	list-style-type: none;
+	margin: 0;
+	padding: 0.2em;
+}
+
+.header__nav__item {
+	display: inline-block;
+}
+
+.header__nav__item a {
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	display: block;
+	padding: 0.875em 1em;
+}
+
+.header__nav__item a:hover {
+	background-color: #666660; 
+}
+
+.main__wrapper {
+	margin: 0 auto;
+	max-width: 992px;
+	line-height: 32px
+	padding: 0.875em 1em;
+}
+
+.hero {
+	background-image: url(../images/office.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 40em;
+}
+
+.projects_main {
+	margin: 0 auto;
+	max-width: 992px;
+	line-height: 32px
+	padding: 0.875em 1em;
+}
+
+.projects_main:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.projects_tile {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 33%;
+	height: 15em;
+	outline: 3px solid #666660;
+	text-align: center;
+	line-height: 32px;
+	background: #fff;
+}
+.footer__wrapper {
+	margin: 0 auto;
+	max-width: 992px
+}
