@@ -21,7 +21,7 @@ body {
 	color: #FFFFFF;
 	float: left;
 	font-family: 'Cutive Mono', sans-serif;
-	font-size: 2em;
+	font-size: 2.5em;
 	margin: 0;
 	padding: 0.2em;
 	text-transform: lowercase;
@@ -35,7 +35,7 @@ body {
 .header__nav__items {
 	list-style-type: none;
 	margin: 0;
-	padding: 0.2em;
+	padding: 0.875em;
 }
 
 .header__nav__item {
@@ -65,7 +65,7 @@ body {
 	background-image: url(../images/office.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 40em;
+	height: 30em;
 }
 
 .projects_main {
@@ -82,16 +82,34 @@ body {
 }
 
 .projects_tile {
-	margin: 0;
 	padding: 0;
 	float: left;
 	width: 33%;
-	height: 15em;
 	outline: 3px solid #666660;
 	text-align: center;
-	line-height: 32px;
 	background: #fff;
+	position: relative;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	margin: auto;
+	line-height: 8em;
+	height: 8em;
+	color: white;
+	text-shadow: 1px 1px black;
+	font-size: 40px;
+	overflow: hidden;
 }
+
+h2 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	top: 0;
+}
+
 .footer__wrapper {
 	margin: 0 auto;
 	max-width: 992px
